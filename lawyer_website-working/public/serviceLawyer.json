@@ -1,0 +1,200 @@
+[
+    {
+      "id": 1,
+      "name": "John Doe",
+      "title":"We bring the right people together to challenge established thinking and drive transform in 2024",
+      "logo": "https://i.ibb.co.com/P955srN/logo1.png",
+      "category": "Criminal Lawyer",
+      "main_img": "https://t3.ftcdn.net/jpg/06/62/81/82/240_F_662818221_utmvLJgCns5b2xGe7UsYjAFMYRHeV9LD.jpg",
+      "img": "https://t4.ftcdn.net/jpg/07/33/08/59/240_F_733085968_qJUBfxQt1x2Kjab3al51xnZDx3qJQQPJ.jpg",
+      "description": "We are expert in industrial cleaning in which we overtake cleaning many industries as we know this must be done in a very well developed techniques from the trained workers using a tested safe machines and special chemicals to remove heavy oil and dirt and grease from the floor. What marks our work in the industrial field is the low amount of accidents happened which we consider this a special point in our work that reflects our professionalism",
+      "price": 70,
+      "time": 23,
+      "subtitle1":"In our Company we offer many cleaning services such as cleaning indoor and outdoor building, commercial companies housed and offices through a well trained personnel using a very developed safety equipment’s. ",
+      "subtitle2":"Cleaning services takes responsibility of removing all dirt through internationally approved detergents and colleting the garbage through our special machines and vehicles and empty the container in a very developed technique ",
+      "subtitle3":"We, the Naser Group Co. consider that cleaning glass and windows is a priority in our work. In fact it’s the mirror how reflects how expert we are. It’s the first impress that customer look forward to estimate us. This method of course is done by a specialized machines, tested detergents and tools and well trained worker.",
+      "number": "+1234567890",
+      "email": "john.doe@example.com",
+      "location": "New York, USA",
+      "years": 5,
+      "about": "I am a criminal lawyer specializing in defending clients in complex legal cases. My expertise lies in courtroom advocacy and legal research."
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "title":"We bring the right people together to challenge established thinking and drive transform in 2024",
+      "logo": "https://i.ibb.co.com/zsC0Qcr/logo2.png",
+      "category": "Family Lawyer",
+      "main_img": "https://t4.ftcdn.net/jpg/08/39/14/35/240_F_839143596_C5j68rPGHy1EJjquYgd0Xp1owe6RyGqo.jpg",
+      "img": "https://t3.ftcdn.net/jpg/03/60/49/44/240_F_360494413_dS095AZgTdLs9izrrjtA3VGfWkyfF2Cj.jpg",
+      "description": "Expert in family law, covering divorce, child custody, and alimony issues. Expert in family law, covering divorce, child custody, and alimony issues. Expert in family law, covering divorce, child custody, and alimony issues. Expert in family law, covering divorce, child custody, and alimony issues. Expert in family law, covering divorce, child custody, and alimony issues. Expert in family law, covering divorce, child custody, and alimony issues.",
+      "price": 45,
+      "time": 39,
+      "subtitle1":"In our Company we offer many cleaning services such as cleaning indoor and outdoor building, commercial companies housed and offices through a well trained personnel using a very developed safety equipment’s. ",
+      "subtitle2":"Cleaning services takes responsibility of removing all dirt through internationally approved detergents and colleting the garbage through our special machines and vehicles and empty the container in a very developed technique ",
+      "subtitle3":"We, the Naser Group Co. consider that cleaning glass and windows is a priority in our work. In fact it’s the mirror how reflects how expert we are. It’s the first impress that customer look forward to estimate us. This method of course is done by a specialized machines, tested detergents and tools and well trained worker.",
+      "number": "+9876543210",
+      "email": "jane.smith@example.com",
+      "location": "London, UK",
+      "years": 7,
+      "about": "I am a corporate lawyer with a focus on mergers, acquisitions, and contract negotiations. I am passionate about providing strategic legal solutions."
+    },
+    {
+      "id": 3,
+      "name": "Alan Brown",
+      "title":"We bring the right people together to challenge established thinking and drive transform in 2024",
+      "logo": "https://i.ibb.co.com/TMfGmPn/logo3.png",
+      "category": "Corporate Lawyer",
+      "main_img": "https://t4.ftcdn.net/jpg/07/18/10/41/240_F_718104166_aYLHwd5FU92L4czAWqJ3etSff1arOESb.jpg",
+      "img": "https://t4.ftcdn.net/jpg/10/28/26/93/240_F_1028269365_zvuYIwFg4EToMDIOhm1uhaunMP5d0sI7.jpg",
+      "description": "We are expert in industrial cleaning in which we overtake cleaning many industries as we know this must be done in a very well developed techniques from the trained workers using a tested safe machines and special chemicals to remove heavy oil and dirt and grease from the floor. What marks our work in the industrial field is the low amount of accidents happened which we consider this a special point in our work that reflects our professionalism",
+      "price": 25,
+      "time": 50,
+      "subtitle1":"In our Company we offer many cleaning services such as cleaning indoor and outdoor building, commercial companies housed and offices through a well trained personnel using a very developed safety equipment’s. ",
+      "subtitle2":"Cleaning services takes responsibility of removing all dirt through internationally approved detergents and colleting the garbage through our special machines and vehicles and empty the container in a very developed technique ",
+      "subtitle3":"We, the Naser Group Co. consider that cleaning glass and windows is a priority in our work. In fact it’s the mirror how reflects how expert we are. It’s the first impress that customer look forward to estimate us. This method of course is done by a specialized machines, tested detergents and tools and well trained worker.",
+      "number": "+1122334455",
+      "email": "ali.ahmed@example.com",
+      "location": "Dubai, UAE",
+      "years": 10,
+      "about": "An experienced lawyer specializing in real estate law. I assist clients in navigating legal complexities in property transactions and disputes."
+    },
+    {
+      "id": 4,
+      "name": "Emma Wilson",
+      "title":"We bring the right people together to challenge established thinking and drive transform in 2024",
+      "logo": "https://i.ibb.co.com/N7xsbz6/logo4.png",
+      "category": "Environmental Lawyer",
+      "main_img": "https://t4.ftcdn.net/jpg/05/95/70/37/240_F_595703721_CDhtjckPIhO08O0piZ95wQ04JjiFrpTx.jpg",
+      "img": "https://t3.ftcdn.net/jpg/03/60/49/44/240_F_360494442_V7cvN2LuSdYWjR4w6EymnOGLiwMpClUY.jpg",
+      "description": "We are expert in industrial cleaning in which we overtake cleaning many industries as we know this must be done in a very well developed techniques from the trained workers using a tested safe machines and special chemicals to remove heavy oil and dirt and grease from the floor. What marks our work in the industrial field is the low amount of accidents happened which we consider this a special point in our work that reflects our professionalism",
+      "price": 35,
+      "time": 26,
+      "subtitle1":"In our Company we offer many cleaning services such as cleaning indoor and outdoor building, commercial companies housed and offices through a well trained personnel using a very developed safety equipment’s. ",
+      "subtitle2":"Cleaning services takes responsibility of removing all dirt through internationally approved detergents and colleting the garbage through our special machines and vehicles and empty the container in a very developed technique ",
+      "subtitle3":"We, the Naser Group Co. consider that cleaning glass and windows is a priority in our work. In fact it’s the mirror how reflects how expert we are. It’s the first impress that customer look forward to estimate us. This method of course is done by a specialized machines, tested detergents and tools and well trained worker.",
+      "number": "+5566778899",
+      "email": "maria.gomez@example.com",
+      "location": "Mexico City, Mexico",
+      "years": 3,
+      "about": "I am a family lawyer dedicated to resolving disputes related to divorce, child custody, and alimony. My goal is to bring fairness to every case."
+    },
+    {
+      "id": 5,
+      "name": "Michael Johnson",
+      "title":"We bring the right people together to challenge established thinking and drive transform in 2024",
+      "logo": "https://i.ibb.co.com/9nVcM0f/logo5.png",
+      "category": "Business Law",
+      "main_img": "https://t3.ftcdn.net/jpg/09/07/64/82/240_F_907648228_t0JyGsuclHaHd0rMVswhr1IP8AwKKRQs.jpg",
+      "img": "https://t3.ftcdn.net/jpg/07/33/08/82/240_F_733088228_Bg0F07TeX0DKPabXbN6BzeB4m8ikKeUU.jpg",
+      "description": "We are expert in industrial cleaning in which we overtake cleaning many industries as we know this must be done in a very well developed techniques from the trained workers using a tested safe machines and special chemicals to remove heavy oil and dirt and grease from the floor. What marks our work in the industrial field is the low amount of accidents happened which we consider this a special point in our work that reflects our professionalism",
+      "price": 60,
+      "time": 40,
+      "subtitle1":"In our Company we offer many cleaning services such as cleaning indoor and outdoor building, commercial companies housed and offices through a well trained personnel using a very developed safety equipment’s. ",
+      "subtitle2":"Cleaning services takes responsibility of removing all dirt through internationally approved detergents and colleting the garbage through our special machines and vehicles and empty the container in a very developed technique ",
+      "subtitle3":"We, the Naser Group Co. consider that cleaning glass and windows is a priority in our work. In fact it’s the mirror how reflects how expert we are. It’s the first impress that customer look forward to estimate us. This method of course is done by a specialized machines, tested detergents and tools and well trained worker.",
+      "number": "+6677889900",
+      "email": "ryan.lee@example.com",
+      "location": "Seoul, South Korea",
+      "years": 6,
+      "about": "I am a litigation lawyer with extensive experience in civil and criminal cases. I am skilled at presenting compelling arguments in court."
+    },
+    {
+      "id": 6,
+      "name": "Sophia Davis",
+      "title":"We bring the right people together to challenge established thinking and drive transform in 2024",
+      "logo": "https://i.ibb.co.com/4PK0TJM/logo6.png",
+      "category": "Labor Lawyer",
+      "main_img": "https://t4.ftcdn.net/jpg/08/46/42/67/240_F_846426727_VF7PDj8WUlAFY1BitQ6mA2a7QIIRkrKB.jpg",
+      "img": "https://t4.ftcdn.net/jpg/02/66/42/47/240_F_266424789_F5nlGGDoYH4KEDFe6rrt6IveKWuJcLmi.jpg",
+      "description": "We are expert in industrial cleaning in which we overtake cleaning many industries as we know this must be done in a very well developed techniques from the trained workers using a tested safe machines and special chemicals to remove heavy oil and dirt and grease from the floor. What marks our work in the industrial field is the low amount of accidents happened which we consider this a special point in our work that reflects our professionalism",
+      "price": 40,
+      "time": 35,
+      "subtitle1":"In our Company we offer many cleaning services such as cleaning indoor and outdoor building, commercial companies housed and offices through a well trained personnel using a very developed safety equipment’s. ",
+      "subtitle2":"Cleaning services takes responsibility of removing all dirt through internationally approved detergents and colleting the garbage through our special machines and vehicles and empty the container in a very developed technique ",
+      "subtitle3":"We, the Naser Group Co. consider that cleaning glass and windows is a priority in our work. In fact it’s the mirror how reflects how expert we are. It’s the first impress that customer look forward to estimate us. This method of course is done by a specialized machines, tested detergents and tools and well trained worker.",
+      "number": "+4455667788",
+      "email": "sophia.wong@example.com",
+      "location": "Singapore",
+      "years": 8,
+      "about": "An intellectual property lawyer passionate about protecting creative works and ensuring compliance with copyright and trademark laws."
+    },
+    {
+      "id": 7,
+      "name": "David Martinez",
+      "title":"We bring the right people together to challenge established thinking and drive transform in 2024",
+      "logo": "https://i.ibb.co.com/dtN3BgS/logo7.png",
+      "category": "Real Estate Lawyer",
+      "main_img": "https://t4.ftcdn.net/jpg/06/24/85/97/240_F_624859738_tuisnmyuu0PhYCRnegFXpyiPMuihW9ns.jpg",
+      "img": "https://t4.ftcdn.net/jpg/04/07/05/63/240_F_407056305_PZa8DbxYKDCdXT0yy4CPjcqtgOjIZ5Wo.jpg",
+      "description": "We are expert in industrial cleaning in which we overtake cleaning many industries as we know this must be done in a very well developed techniques from the trained workers using a tested safe machines and special chemicals to remove heavy oil and dirt and grease from the floor. What marks our work in the industrial field is the low amount of accidents happened which we consider this a special point in our work that reflects our professionalism",
+      "price": 30,
+      "time": 25,
+      "subtitle1":"In our Company we offer many cleaning services such as cleaning indoor and outdoor building, commercial companies housed and offices through a well trained personnel using a very developed safety equipment’s. ",
+      "subtitle2":"Cleaning services takes responsibility of removing all dirt through internationally approved detergents and colleting the garbage through our special machines and vehicles and empty the container in a very developed technique ",
+      "subtitle3":"We, the Naser Group Co. consider that cleaning glass and windows is a priority in our work. In fact it’s the mirror how reflects how expert we are. It’s the first impress that customer look forward to estimate us. This method of course is done by a specialized machines, tested detergents and tools and well trained worker.",
+      "number": "+7788990011",
+      "email": "luca.bianchi@example.com",
+      "location": "Rome, Italy",
+      "years": 4,
+      "about": "I am an environmental lawyer focused on advocating for sustainable practices and ensuring compliance with environmental regulations."
+    },
+    {
+      "id": 8,
+      "name": "Olivia Hernandez",
+      "title":"We bring the right people together to challenge established thinking and drive transform in 2024",
+      "logo": "https://i.ibb.co.com/HpgcF1R/logo8.png",
+      "category": "Tax Lawyer",
+      "main_img": "https://t3.ftcdn.net/jpg/09/48/15/96/240_F_948159630_RU53nvPk89LVSrdPwSEJyDfeF7zBb96L.jpg",
+      "img": "https://t3.ftcdn.net/jpg/02/50/45/12/240_F_250451241_nXnhUjKarwWQnwj5bZCFDaGsemzBTW47.jpg",
+      "description": "We are expert in industrial cleaning in which we overtake cleaning many industries as we know this must be done in a very well developed techniques from the trained workers using a tested safe machines and special chemicals to remove heavy oil and dirt and grease from the floor. What marks our work in the industrial field is the low amount of accidents happened which we consider this a special point in our work that reflects our professionalism",
+      "price": 20,
+      "time": 20,
+      "subtitle1":"In our Company we offer many cleaning services such as cleaning indoor and outdoor building, commercial companies housed and offices through a well trained personnel using a very developed safety equipment’s. ",
+      "subtitle2":"Cleaning services takes responsibility of removing all dirt through internationally approved detergents and colleting the garbage through our special machines and vehicles and empty the container in a very developed technique ",
+      "subtitle3":"We, the Naser Group Co. consider that cleaning glass and windows is a priority in our work. In fact it’s the mirror how reflects how expert we are. It’s the first impress that customer look forward to estimate us. This method of course is done by a specialized machines, tested detergents and tools and well trained worker.",
+      "number": "+8899001122",
+      "email": "emma.miller@example.com",
+      "location": "Toronto, Canada",
+      "years": 5,
+      "about": "A compassionate family lawyer helping clients navigate legal issues with sensitivity and fairness. I also provide pro bono services for those in need."
+    },
+    {
+      "id": 9,
+      "name": "Liam Robinson",
+      "title":"We bring the right people together to challenge established thinking and drive transform in 2024",
+      "logo": "https://i.ibb.co.com/TMfGmPn/logo3.png",
+      "category": "Immigration Lawyer",
+      "main_img": "https://t3.ftcdn.net/jpg/06/62/81/82/240_F_662818230_9lkOCpi95OEuF03MLRIOTqN6Zcz8jdJW.jpg",
+      "img": "https://t4.ftcdn.net/jpg/07/33/08/59/240_F_733085980_x0jOP6aETGK4aXfW48LEH82N7uVAmtvN.jpg",
+      "description": "We are expert in industrial cleaning in which we overtake cleaning many industries as we know this must be done in a very well developed techniques from the trained workers using a tested safe machines and special chemicals to remove heavy oil and dirt and grease from the floor. What marks our work in the industrial field is the low amount of accidents happened which we consider this a special point in our work that reflects our professionalism",
+      "price": 50,
+      "time": 30,
+      "subtitle1":"In our Company we offer many cleaning services such as cleaning indoor and outdoor building, commercial companies housed and offices through a well trained personnel using a very developed safety equipment’s. ",
+      "subtitle2":"Cleaning services takes responsibility of removing all dirt through internationally approved detergents and colleting the garbage through our special machines and vehicles and empty the container in a very developed technique ",
+      "subtitle3":"We, the Naser Group Co. consider that cleaning glass and windows is a priority in our work. In fact it’s the mirror how reflects how expert we are. It’s the first impress that customer look forward to estimate us. This method of course is done by a specialized machines, tested detergents and tools and well trained worker.",
+      "number": "+9900112233",
+      "email": "liam.taylor@example.com",
+      "location": "Sydney, Australia",
+      "years": 12,
+      "about": "A corporate lawyer with deep expertise in international trade and compliance. I strive to provide innovative legal strategies for global businesses."
+  
+      
+      
+    }
+  ]
+  
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+

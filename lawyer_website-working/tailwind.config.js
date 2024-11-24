@@ -2,11 +2,26 @@
 import daisyui from 'daisyui'
 export default {
   content: [
-    "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+        fontMartel: ["Martel"]
+      },
+      backgroundImage: {
+        bannerImg: "url('./src/assets/bg-lawyer.jpg')",
+        serviceImg: "url('./src/assets/lawyer-img.jpg')" 
+      },
+      backgroundColor: {
+        bg_button: "#f2af60"
+      },
+      textColor: {
+        bla: '#1c0c3a',
+        kalo: '#4d4d4d'
+      },
+    
+    },
   },
   plugins: [daisyui],
 }

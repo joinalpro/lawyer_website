@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "image": "https://via.placeholder.com/150x150.png?text=Person+1",
+        "review_text": "Although this is well-intentioned, the goal is to reduce the quantity of these bothersome thoughts.",
+        "name": "Robert Fox",
+        "designation": "CEO, Google.inc",
+        "rating": 5
+    },
+    {
+        "id": 2,
+        "image": "https://via.placeholder.com/150x150.png?text=Person+2",
+        "review_text": "The service provided exceeded expectations and delivered outstanding results.",
+        "name": "Jane Doe",
+        "designation": "Marketing Manager, Facebook",
+        "rating": 4.5
+    },
+    {
+        "id": 3,
+        "image": "https://via.placeholder.com/150x150.png?text=Person+3",
+        "review_text": "A professional and reliable experience that stands out in the industry.",
+        "name": "John Smith",
+        "designation": "CTO, Microsoft",
+        "rating": 4.8
+    },
+    {
+        "id": 4,
+        "image": "https://via.placeholder.com/150x150.png?text=Person+4",
+        "review_text": "Impressed with the timely response and dedication to customer satisfaction.",
+        "name": "Emily Johnson",
+        "designation": "HR Specialist, Amazon",
+        "rating": 4.9
+    },
+    {
+        "id": 5,
+        "image": "https://via.placeholder.com/150x150.png?text=Person+5",
+        "review_text": "A unique approach to solving problems with creativity and precision.",
+        "name": "Michael Brown",
+        "designation": "Finance Advisor, Apple",
+        "rating": 4.7
+    },
+    {
+        "id": 6,
+        "image": "https://via.placeholder.com/150x150.png?text=Person+6",
+        "review_text": "The professionalism and attention to detail were remarkable.",
+        "name": "Sophia Davis",
+        "designation": "Operations Lead, Netflix",
+        "rating": 5
+    },
+    {
+        "id": 7,
+        "image": "https://via.placeholder.com/150x150.png?text=Person+7",
+        "review_text": "Exceptional quality and a team that truly cares about the end result.",
+        "name": "William Garcia",
+        "designation": "Product Manager, Tesla",
+        "rating": 4.6
+    },
+    {
+        "id": 8,
+        "image": "https://via.placeholder.com/150x150.png?text=Person+8",
+        "review_text": "A seamless process from start to finish with outstanding support.",
+        "name": "Isabella Martinez",
+        "designation": "Creative Head, Adobe",
+        "rating": 4.8
+    },
+    {
+        "id": 9,
+        "image": "https://via.placeholder.com/150x150.png?text=Person+9",
+        "review_text": "Highly skilled professionals who deliver consistent value.",
+        "name": "James Wilson",
+        "designation": "Data Scientist, IBM",
+        "rating": 4.9
+    }
+]

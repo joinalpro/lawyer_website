@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+/* martel */
+@import url('https://fonts.googleapis.com/css2?family=Martel:wght@200;300;400;600;700;800;900&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -10,4 +12,13 @@ body{
 
 html{
   overflow-y: scroll;
+}
+
+.slick-slide > div {
+  margin: 0 8px;
+}
+
+
+::placeholder{
+  color: #1c0c3a !important;
 }
