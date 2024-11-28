@@ -8,7 +8,7 @@ const ServiceDetails = () => {
     const {detailsData, data} = useLoaderData()
     return (
         <main>
-            <SectionTitle title={`Home/Service/${detailsData.category}`}/>
+            <SectionTitle title={`Home>Service>${detailsData.category}`}/>
             {/* details data show here */}
            <section className="lg:w-10/12 mx-auto px-2 mt-12 lg:px-0">
           <div>

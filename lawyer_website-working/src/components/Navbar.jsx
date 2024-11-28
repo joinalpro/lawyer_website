@@ -4,25 +4,31 @@ import { FiArrowRightCircle } from "react-icons/fi";
 import { useState } from "react";
 import { IoMenu } from "react-icons/io5";
 import { IoMdClose } from "react-icons/io";
+import NavLinks from "./NavLinks";
+
+
 
 const Navbar = () => {
     const [open, setOpen] = useState(false);
+
     const links = <>
         <NavLink className={({ isActive }) => isActive ? 'text-orange-500 ' : 'hover:text-orange-500'} to='/'>Home</NavLink>
         <NavLink className={({ isActive }) => isActive ? 'text-orange-500 ' : 'hover:text-orange-500'} to='/about'>About Us</NavLink>
         <NavLink className={({ isActive }) => isActive ? 'text-orange-500 ' : 'hover:text-orange-500'} to='/service'>Sevice</NavLink>
         <NavLink className={({ isActive }) => isActive ? 'text-orange-500 ' : 'hover:text-orange-500'} to='/ourAttorneys'>Our Attorneys</NavLink>
-        <NavLink className={({ isActive }) => isActive ? 'text-orange-500 ' : 'hover:text-orange-500'} to='/pages'>Pages</NavLink>
+        <div>
+         <NavLinks></NavLinks>
+        </div>
     </>
     return (
-        <div className="bg-orange-100 backdrop-blur-sm mt-8 md:mt-0 fixed w-full z-50">
+        <div className="bg-[#ffffff] shadow shadow-white backdrop-blur-sm mt-8 md:mt-0 fixed w-full z-50">
             <div className="navbar lg:w-[1200px] mx-auto">
                 <div className="navbar-start">
                     <div className="dropdown ">
                         <div onClick={() => setOpen(!open)} tabIndex={0} role="button" className={`btn p-0 btn-ghost lg:hidden `}>
-                        {
-                            open ? <IoMdClose className="text-2xl"/> : <IoMenu className="text-2xl"/>
-                        }
+                            {
+                                open ? <IoMdClose className="text-2xl" /> : <IoMenu className="text-2xl" />
+                            }
                         </div>
                         <ul
                             tabIndex={0}
@@ -47,7 +53,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <Link>
+                    <Link to="/contact">
                         <h1 className="py-3 md:px-7 px-4 flex items-center gap-2 font-bold bg-[#f2af60]">Talk To Lawyer
                             <FiArrowRightCircle className="text-xl" />
                         </h1>

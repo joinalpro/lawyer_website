@@ -11,7 +11,7 @@ const OurProces = () => {
         <div className="lg:w-10/12 mb-36 mt-12 mx-auto">
             <div className="  px-2 lg:px-0">
                 <div className="text-center space-y-2 px-5">
-                    <h2 className="text-xl text-bla font-bold">Our Process</h2>
+                    <h2 className="text-bla font-bold">Our Process</h2>
                     <p className="text-2xl  font-bold font-fontMartel text-[#1c0c3a]">How We Work</p>
                     <p className="text-gray-500">Hero Section: A visually striking area at the top of the page </p>
                 </div>

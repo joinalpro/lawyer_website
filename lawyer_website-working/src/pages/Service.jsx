@@ -11,7 +11,7 @@ const Service = () => {
         <section>
             {/* section title */} 
           
-            <SectionTitle  title="Home/Service"/>
+            <SectionTitle  title="Home > Service"/>
             <div className="text-center space-y-1 mt-10">
                 <p className="text-bla font-bold text-[18px]">Our Services</p>
                 <h3 className="text-3xl font-bold font-fontMartel">We Provided Legal & Lawyer Services</h3>
@@ -26,7 +26,7 @@ const Service = () => {
               <OurProces/>
               {/* Book an Appointment */}
        
-            <BookAnAppointment services={services}></BookAnAppointment>;
+            <BookAnAppointment services={services}></BookAnAppointment>
             
         </section>
     );

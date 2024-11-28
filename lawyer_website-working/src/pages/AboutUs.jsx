@@ -1,8 +1,10 @@
+import SectionTitle from "../components/SectionTitle";
 
 const AboutUs = () => {
     return (
         <div>
-            AboutUs
+            {/* section title */}
+            <SectionTitle title="Home > About Us"/>
         </div>
     );
 };

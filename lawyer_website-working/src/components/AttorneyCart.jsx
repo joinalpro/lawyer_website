@@ -2,7 +2,7 @@
 import { GrInstagram } from "react-icons/gr";
 import { BsTwitterX } from "react-icons/bs";
 import { FaLinkedinIn } from "react-icons/fa6";
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const AttorneyCart = ({ attorney }) => {
     const { img, name, category } = attorney
@@ -13,24 +13,21 @@ const AttorneyCart = ({ attorney }) => {
             <div  className="group-hover:block lg:hidden  relative">
                 <div className="absolute right-0">
                 <button  className="bg-white p-3 block rounded-full text-orange-400">
-                    <Link to="instagram">
+                    
                     <GrInstagram className="text-xl" />
-                    </Link>
                 </button>
                 <button className="bg-white p-3 block my-3 rounded-full text-black">
-                    <Link to="twitter">
+                   
                     <BsTwitterX className="text-xl" />
-                    </Link>
                 </button>
                 <button className="bg-white p-3 rounded-full text-blue-600">
-                    <Link to="linkedin">
+                  
                     <FaLinkedinIn className="text-xl" />
-                    </Link>
                 </button>
                 </div>
             </div>
             <div className="relative w-[100%] -bottom-[258px]">
-                <button className="bg-[#f2af60] w-full py-2">
+                <button className="bg-white/95 hover:bg-[#f2af60] w-full py-2">
                     <span className="text-xl font-bold font-fontMartel text-bla">{name}</span>
                     <p>{category}</p>
                 </button>

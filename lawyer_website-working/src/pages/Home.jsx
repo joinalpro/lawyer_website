@@ -1,4 +1,4 @@
-import { Link, useLoaderData } from "react-router-dom";
+import { Link, NavLink, useLoaderData } from "react-router-dom";
 import Banner from "../components/Banner";
 import HappyClient from "../components/HappyClient";
 import OurProces from "../components/OurProces";
@@ -8,13 +8,13 @@ import { FiArrowRightCircle } from "react-icons/fi";
 import BookAnAppointment from "../components/BookAnAppointment";
 import AttorneyCart from "../components/AttorneyCart";
 import ClientReviewCard from "../components/ClientReviewCard";
+import FaqsCard from "../components/FaqsCard";
+import BlogsCard from "../components/BlogsCard";
+
 
 const Home = () => {
     const servicesData = useLoaderData()
-
-    const { services, clientData } = servicesData;
-
-
+    const { services, clientData, faqsData, blogData } = servicesData;
     return (
         <div>
             <Banner />
@@ -59,7 +59,7 @@ const Home = () => {
                     }
                 </div>
             </section>
-            {/* client review section */}
+            {/* Testimonials client review section */}
             <main className="bg-[#f9f9f9] py-16">
                 <section className="lg:w-10/12 mx-auto px-2 lg:px-0">
                     {/* client text contant */}
@@ -70,25 +70,67 @@ const Home = () => {
                             <p className="text-kalo mt-2">We provide the highest-quality advice and legal insight in resolving issues.</p>
                         </div>
                         <div className="flex mt-5 lg:mt-0 lg:text-center itmes-center gap-5">
-                           <div>
-                            <h4 className="text-bla text-3xl font-bold font-fontMartel">320</h4>
-                            <p className="text-kalo">Happy Client</p>
-                           </div>
-                           <div>
-                            <h4 className="text-bla text-3xl font-bold font-fontMartel">4.5</h4>
-                            <p className="text-kalo">Overall Rating</p>
-                           </div>
-                        
+                            <div>
+                                <h4 className="text-bla text-3xl font-bold font-fontMartel">320</h4>
+                                <p className="text-kalo">Happy Client</p>
+                            </div>
+                            <div>
+                                <h4 className="text-bla text-3xl font-bold font-fontMartel">4.5</h4>
+                                <p className="text-kalo">Overall Rating</p>
+                            </div>
+
                         </div>
                     </div>
                     {/* client section map kore dekhano holo */}
-                    <div className="grid mt-12 gap-4 md:grid-cols-2 lg:grid-cols-3">
+                    <div className="grid gap-4 mt-10 md:grid-cols-3">
                         {
-                            clientData.map(client => <ClientReviewCard key={client.id} client={client} ></ClientReviewCard>)
+                            clientData.slice(0, 3).map((client) => <ClientReviewCard key={client.id} client={client} ></ClientReviewCard>)
+                        }
+                    </div>
+                </section>
+           
+            </main>
+            {/* faqs  */}
+            <section>
+                <div className="text-center my-10">
+                    <p className="text-bla  text-[18px] font-bold">FAQs</p>
+                    <h2 className="text-3xl text-bla mt-3 font-bold font-fontMartel">Frequently Asked Questions</h2>
+                    <p className="text-kalo">Answers to common questions we hear often · How much does an attorney cost</p>
+                </div>
+                {/* faqs map  */}
+                <div className="lg:w-8/12 my-16 mx-auto px-2 lg:px-0">
+                    {
+                        faqsData.slice(0, 5).map(faqs => <FaqsCard key={faqs.id} faqs={faqs}></FaqsCard>)
+                    }
+                    <NavLink to="/faqs">
+                        <button className="flex items-center gap-3 mt-5 border-2 font-bold text-orange-300 border-orange-300 hover:bg-bg_button hover:text-bla py-2 px-5 mx-auto">Show All <FiArrowRightCircle className="text-xl" /></button>
+                    </NavLink>
+                </div>
+            </section>
+            {/* Blogs section */}
+            <main className="bg-[#f9f9f9] py-16">
+                <section className="lg:w-10/12 mx-auto px-2 lg:px-0">
+                    {/* blogs contant */}
+                    <div className="flex items-end justify-between">
+                        <div className="f">
+                            <p className="text-[18px] text-bla font-bold">News Blogs</p>
+                            <h2 className="text-3xl mt-2 font-bold font-fontMartel text-bla">Our Latest News & Upcoming Blog</h2>
+                        </div>
+                        <div>
+                            <Link to="/blogs">
+                                <button className="flex items-center gap-3 bg-bg_button  px-4 py-3 font-bold text-bla">Show All <FiArrowRightCircle className="text-xl" /></button>
+                            </Link>
+                        </div>
+                    </div>
+                    {/* new blogs data show */}
+                    <div className="grid mt-8 gap-4 md:grid-cols-3">
+                        {
+                            blogData.slice(0,3).map(blog => <BlogsCard key={blog.id} blog={blog}></BlogsCard>)
                         }
                     </div>
                 </section>
             </main>
+
         </div>
     );
 };

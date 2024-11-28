@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "image": "https://via.placeholder.com/150x150.png?text=Person+1",
+        "image": "https://t3.ftcdn.net/jpg/04/91/76/46/240_F_491764612_fXhBdvCCWCI8iMZH3dAsE261z3K9T0zn.jpg",
         "review_text": "Although this is well-intentioned, the goal is to reduce the quantity of these bothersome thoughts.",
         "name": "Robert Fox",
         "designation": "CEO, Google.inc",
@@ -9,7 +9,7 @@
     },
     {
         "id": 2,
-        "image": "https://via.placeholder.com/150x150.png?text=Person+2",
+        "image": "https://t3.ftcdn.net/jpg/10/42/58/24/240_F_1042582420_eTPSA8OPZstsH5yAegw5gmzpwU9wXYlw.jpg",
         "review_text": "The service provided exceeded expectations and delivered outstanding results.",
         "name": "Jane Doe",
         "designation": "Marketing Manager, Facebook",
@@ -17,7 +17,7 @@
     },
     {
         "id": 3,
-        "image": "https://via.placeholder.com/150x150.png?text=Person+3",
+        "image": "https://t4.ftcdn.net/jpg/10/15/54/79/240_F_1015547951_sauB9r4Ij0Iry7eBaVACyzagTACQ3n03.jpg",
         "review_text": "A professional and reliable experience that stands out in the industry.",
         "name": "John Smith",
         "designation": "CTO, Microsoft",
@@ -25,7 +25,7 @@
     },
     {
         "id": 4,
-        "image": "https://via.placeholder.com/150x150.png?text=Person+4",
+        "image": "https://t4.ftcdn.net/jpg/08/01/43/09/240_F_801430964_bqBF9TlN5g9iZ34PBTpaaXxWF3sComuY.jpg",
         "review_text": "Impressed with the timely response and dedication to customer satisfaction.",
         "name": "Emily Johnson",
         "designation": "HR Specialist, Amazon",
@@ -33,7 +33,7 @@
     },
     {
         "id": 5,
-        "image": "https://via.placeholder.com/150x150.png?text=Person+5",
+        "image": "https://t3.ftcdn.net/jpg/06/20/53/68/240_F_620536814_v0h5OzfuAMjJL9of1MRnZAjYgAje8Y0z.jpg",
         "review_text": "A unique approach to solving problems with creativity and precision.",
         "name": "Michael Brown",
         "designation": "Finance Advisor, Apple",
@@ -41,7 +41,7 @@
     },
     {
         "id": 6,
-        "image": "https://via.placeholder.com/150x150.png?text=Person+6",
+        "image": "https://t3.ftcdn.net/jpg/09/57/86/94/240_F_957869464_VfDGQh66oJGifkJTg7V6pKrpgzH6BUui.jpg",
         "review_text": "The professionalism and attention to detail were remarkable.",
         "name": "Sophia Davis",
         "designation": "Operations Lead, Netflix",
@@ -49,7 +49,7 @@
     },
     {
         "id": 7,
-        "image": "https://via.placeholder.com/150x150.png?text=Person+7",
+        "image": "https://t3.ftcdn.net/jpg/09/76/61/28/240_F_976612805_aERmsLkuYpq3QX6pi00dWGr5INdwkkbi.jpg",
         "review_text": "Exceptional quality and a team that truly cares about the end result.",
         "name": "William Garcia",
         "designation": "Product Manager, Tesla",
@@ -57,7 +57,7 @@
     },
     {
         "id": 8,
-        "image": "https://via.placeholder.com/150x150.png?text=Person+8",
+        "image": "https://t4.ftcdn.net/jpg/08/45/20/07/240_F_845200773_kTA4txAA2DGmvx8cgSmi5CWgNS5q9zG9.jpg",
         "review_text": "A seamless process from start to finish with outstanding support.",
         "name": "Isabella Martinez",
         "designation": "Creative Head, Adobe",
@@ -65,7 +65,7 @@
     },
     {
         "id": 9,
-        "image": "https://via.placeholder.com/150x150.png?text=Person+9",
+        "image": "https://t3.ftcdn.net/jpg/10/23/44/10/240_F_1023441099_Kav5S5Q2eT587EPpmUZsLL37oqmEe9Rk.jpg",
         "review_text": "Highly skilled professionals who deliver consistent value.",
         "name": "James Wilson",
         "designation": "Data Scientist, IBM",

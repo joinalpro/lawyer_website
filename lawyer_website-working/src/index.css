@@ -15,10 +15,34 @@ html{
 }
 
 .slick-slide > div {
-  margin: 0 8px;
+  margin: 0 5px;
 }
-
+.slick-arrow:before{
+  color: rgb(255, 208, 0) !important;
+  font-size: 24px !important;
+  border: 2px solid orange;
+  padding: 8px;
+  border-radius: 50%;
+}
 
 ::placeholder{
   color: #1c0c3a !important;
+}
+
+
+html{
+  overflow-y: scroll;
+}
+
+@media only screen and (max-width: 600px){
+  .slick-prev{
+    top: 60px !important;
+    left: -40px !important;
+  }
+}
+@media only screen and (min-width: 600px){
+  .slick-prev{
+    top: 60px !important;
+    left: -50px !important;
+  }
 }

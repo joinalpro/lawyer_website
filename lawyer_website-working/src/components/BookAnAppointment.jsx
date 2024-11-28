@@ -27,12 +27,12 @@ const BookAnAppointment = ({ services }) => {
     };
     return (
         <section className={location.pathname === '/' ? `bg-serviceImg bg-blend-overlay bg-black/70 bg-no-repeat bg-cover bg-center` : 'bg-[#f9f9f9]'}>
-            <div className="lg:w-10/12 flex flex-col lg:flex-row py-20 gap-16 mx-auto px-2 lg:px-0 ">
+            <div className="lg:w-10/12 flex flex-col lg:flex-row py-20 gap-20 mx-auto px-2 lg:px-0 ">
                 {/* slider */}
                 <div className="lg:w-[60%]">
                     {/* text contant */}
                     <div className={`lg:pr-52  md:pr-12  space-y-5 ${location.pathname == '/' ? 'text-[#ffffff]' : 'text-bla'}`}>
-                        <p className=" font-fontMartel font-bold">Book an Appointment</p>
+                        <p className="text-[18px] font-fontMartel font-bold">Book an Appointment</p>
                         <h1 className="md:text-4xl text-xl font-bold font-fontMartel">Legal Advice Online From Top Lawyers</h1>
                         <div className="flex items-center gap-3">
                             <button className="bg-bg_button text-white p-1"><FaCheck /></button>
@@ -44,7 +44,7 @@ const BookAnAppointment = ({ services }) => {
                         </div>
                     </div>
                     {/* slider part show medium device and lg device*/}
-                    <div className="text-center lg:mt-20 md:mt-8 md:w-[95%] lg:w-auto mx-auto hidden md:block">
+                    <div className="text-center lg:mt-20 md:mt-8 md:w-[85%] lg:w-auto mx-auto hidden md:block">
                         <Slider {...settings}>
                             {
                                 services.map(d => <div className=" bg-white py-4" key={d.id}>
@@ -58,7 +58,7 @@ const BookAnAppointment = ({ services }) => {
                         </Slider>
                     </div>
                     {/* slider part show mobail device*/}
-                    <div className="text-center mt-4 w-[90%] mx-auto md:hidden block">
+                    <div className="text-center mt-4 w-[82%] mx-auto md:hidden block">
                         <Slider {...setting}>
                             {
                                 services.map(d => <div className=" bg-white py-4" key={d.id}>
@@ -127,4 +127,4 @@ const BookAnAppointment = ({ services }) => {
     );
 };
 
-export default BookAnAppointment;
+export default BookAnAppointment

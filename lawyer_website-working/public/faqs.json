@@ -1,0 +1,63 @@
+[
+    {
+      "id": 1,
+      "question": "How can I determine if your law firm is the right law firm for me?",
+      "description": "Choosing the right law firm is one of the most critical decisions you’ll make during a legal process. Our law firm prioritizes personalized attention to each client. During your consultation, we will discuss your needs, the challenges you’re facing, and our recommended solutions. We pride ourselves on transparency, experience, and a client-first approach. Whether it’s a personal injury case, family law dispute, or corporate legal matter, we ensure that our strategies align with your goals. Trust, communication, and proven results are our hallmarks."
+    },
+    {
+      "id": 2,
+      "question": "What size cases do you handle?",
+      "description": "Our firm has experience handling cases of all sizes, from minor disputes to complex litigation involving multiple parties or jurisdictions. Whether you’re an individual seeking justice or a corporation requiring comprehensive legal support, we are equipped to deliver results. Smaller cases receive the same dedication as larger cases, and we tailor our resources and strategies to fit the case’s specific needs."
+    },
+    {
+      "id": 3,
+      "question": "How much does it cost to hire your firm?",
+      "description": "We offer flexible and transparent pricing based on the nature of your case. Our options include hourly rates, flat fees, or contingency-based arrangements. During your consultation, we’ll outline the estimated costs, payment structures, and available plans. Our goal is to provide accessible legal services without compromising quality. Competitive pricing and high-quality representation are guaranteed."
+    },
+    {
+      "id": 4,
+      "question": "What should I bring with me for my meeting with West Coast Trial Lawyers?",
+      "description": "To ensure a productive meeting, bring all relevant documents like contracts, medical reports, financial records, or correspondence. A written summary of the events related to your case is also helpful. These materials allow us to assess your situation thoroughly and create an effective legal strategy. Don’t worry if you’re unsure what to bring; our team will guide you beforehand."
+    },
+    {
+      "id": 5,
+      "question": "What is a lien or letter of protection used for?",
+      "description": "A lien or letter of protection is a legal agreement often used in personal injury cases. It ensures that medical providers or service providers will be compensated once your case settles. If you cannot pay upfront, this document allows you to receive necessary treatment or services without financial strain. We negotiate liens to protect your settlement while ensuring fair compensation for all parties involved."
+    },
+    {
+      "id": 6,
+      "question": "How long will my case take to resolve?",
+      "description": "The timeline for resolving a case varies depending on the complexity, type of case, and parties involved. Straightforward cases may resolve within months, while complex litigation could take years. During your consultation, we will discuss potential timelines and key factors that might impact the duration of your case."
+    },
+    {
+      "id": 7,
+      "question": "Do you specialize in specific areas of law?",
+      "description": "Our firm specializes in various areas, including personal injury, family law, corporate law, and criminal defense. Each of our attorneys has extensive expertise in their respective fields, ensuring that you receive specialized attention and tailored strategies for your legal matter."
+    },
+    {
+      "id": 8,
+      "question": "What kind of compensation can I expect in my case?",
+      "description": "Compensation varies depending on the nature of your case. For personal injury claims, you may receive compensation for medical expenses, lost wages, and emotional distress. In corporate or contract disputes, damages might involve financial settlements or other remedies. We’ll evaluate your case and provide an honest assessment of potential outcomes."
+    },
+    {
+      "id": 9,
+      "question": "Will my case go to trial?",
+      "description": "Not all cases go to trial. Many are resolved through negotiations, mediation, or arbitration. However, if a trial becomes necessary, our experienced litigators will represent you zealously. We aim to resolve your case efficiently, but we are prepared for trial if it serves your best interests."
+    },
+    {
+      "id": 10,
+      "question": "Do you offer free consultations?",
+      "description": "Yes, we provide free initial consultations to understand your case and determine how we can assist you. During this meeting, we’ll answer your questions, discuss your legal options, and outline potential strategies. Our goal is to provide clarity and help you make informed decisions."
+    },
+    {
+      "id": 11,
+      "question": "How can I track the progress of my case?",
+      "description": "We prioritize keeping our clients informed at every stage of their case. You’ll have access to updates through regular meetings, emails, or phone calls. Additionally, we utilize case management tools to provide real-time updates. Transparency and communication are key pillars of our client service."
+    },
+    {
+      "id": 12,
+      "question": "What happens if we lose the case?",
+      "description": "While we strive to achieve favorable outcomes, it’s essential to discuss the risks involved. In cases like personal injury, where fees are contingency-based, you may not owe legal fees if we don’t win. For other cases, we’ll outline potential next steps, such as appeals, to continue pursuing justice."
+    }
+  ]
+  

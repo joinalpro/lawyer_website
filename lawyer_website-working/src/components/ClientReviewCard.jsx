@@ -1,24 +1,18 @@
 /* eslint-disable react/prop-types */
-// import Swiper JS
-import Swiper from 'swiper';
-// import Swiper styles
-import 'swiper/css';
 
-const ClientReviewCard = ({client}) => {
-     const {name, image, review_text, designation} = client
+const ClientReviewCard = ({ client }) => {
+
+    const { name, image, review_text, designation } = client;
+
     return (
-        <div className="relative bg-base-100 p-5 pt-12 border-2 shadow-xl">
-            <figure className="w-12 absolute -top-8 left-5">
-                <img className="w-full rounded-full" src={image} alt="" />
+        <div className="relative flex flex-col bg-base-100  pt-8 px-4 pb-4 border-2">
+            <figure className="w-12 h-12 absolute -top-7 left-3">
+                <img className="w-full h-full object-cover rounded-full" src={image} alt="" />
             </figure>
-        <div className="">
-          <p className="text-kalo">{review_text}</p>
-          <h2 className="card-title">Card title!</h2>
-          <div className="card-actions justify-end">
-            <button className="btn btn-primary">Buy Now</button>
-          </div>
+            <p className="text-kalo">{review_text.slice(0,90)}</p>
+            <h2 className="card-title">{name}</h2>
+            <p>{designation}</p>
         </div>
-      </div>
     );
 };
 
