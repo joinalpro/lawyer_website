@@ -111,14 +111,14 @@ const Home = () => {
             <main className="bg-[#f9f9f9] py-16">
                 <section className="lg:w-10/12 mx-auto px-2 lg:px-0">
                     {/* blogs contant */}
-                    <div className="flex items-end justify-between">
+                    <div className="md:flex items-end justify-between">
                         <div className="f">
-                            <p className="text-[18px] text-bla font-bold">News Blogs</p>
-                            <h2 className="text-3xl mt-2 font-bold font-fontMartel text-bla">Our Latest News & Upcoming Blog</h2>
+                            <p className="text-bla font-bold">News Blogs</p>
+                            <h2 className="md:text-3xl  text-2xl mt-2 font-bold font-fontMartel text-bla">Our Latest News & Upcoming Blog</h2>
                         </div>
                         <div>
                             <Link to="/blogs">
-                                <button className="flex items-center gap-3 bg-bg_button  px-4 py-3 font-bold text-bla">Show All <FiArrowRightCircle className="text-xl" /></button>
+                                <button className="flex mt-4 md:mt-0 items-center gap-3 bg-bg_button  px-4 py-3 font-bold text-bla">Show All <FiArrowRightCircle className="text-xl" /></button>
                             </Link>
                         </div>
                     </div>
