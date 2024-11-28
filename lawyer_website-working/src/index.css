@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 /* martel */
 @import url('https://fonts.googleapis.com/css2?family=Martel:wght@200;300;400;600;700;800;900&display=swap');
+/* pesinna font */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -34,6 +36,52 @@ html{
   overflow-y: scroll;
 }
 
+/* play btn animation bannerBtn */
+.pluse{
+  height: 50px;
+  width: 50px;
+  background:linear-gradient(
+    rgb(222, 225, 21),
+    orange
+  );
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border-radius: 50%;
+  display: grid;
+  font-size: 20px;
+  place-items: center;
+  color: #FFF
+}
+/*  */
+.pluse:before,
+.pluse:after{
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(236, 208, 29);
+  border-radius: 50%;
+  z-index: -1;
+  opacity: 0.7;
+}
+.pluse:before{
+  animation: pluse 2s ease-out infinite;
+}
+.pluse:after{
+  animation: pluse 2s 1s ease-out infinite;
+}
+
+@keyframes pluse{
+  100%{
+    transform: scale(2.5);
+    opacity: 0;
+  }
+}
+
 @media only screen and (max-width: 600px){
   .slick-prev{
     top: 60px !important;
@@ -46,3 +94,4 @@ html{
     left: -50px !important;
   }
 }
+

@@ -16,7 +16,8 @@ const Banner = () => {
                             </Link>
                             
                             <Link>
-                                <button className="flex items-center gap-2"><span className="text-xl  pl-4 pr-3 py-3.5 rounded-full border-2 border-orange-400 text-orange-400"><FaPlay /></span> <span className="font-semibold">Watch Now</span></button>
+                                <button className="flex items-center gap-2"><span className="text-xl  pl-4 pr-3 py-3.5 rounded-full border-2 border-orange-400 text-orange-400"><FaPlay /></span> </button>
+                                {/* <span className="font-semibold">Watch Now</span> */}
                             </Link>
                         </div>
                     </div>

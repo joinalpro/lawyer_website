@@ -58,7 +58,7 @@ const BookAnAppointment = ({ services }) => {
                         </Slider>
                     </div>
                     {/* slider part show mobail device*/}
-                    <div className="text-center mt-4 w-[82%] mx-auto md:hidden block">
+                    <div className="text-center mt-4 w-[80%] mx-auto md:hidden block">
                         <Slider {...setting}>
                             {
                                 services.map(d => <div className=" bg-white py-4" key={d.id}>

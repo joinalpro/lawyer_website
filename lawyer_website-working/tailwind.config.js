@@ -7,7 +7,8 @@ export default {
   theme: {
     extend: {
       fontFamily:{
-        fontMartel: ["Martel"]
+        fontMartel: ["Martel"],
+        dancing: ["Dancing Script"]
       },
       backgroundImage: {
         bannerImg: "url('./src/assets/bg-lawyer.jpg')",
