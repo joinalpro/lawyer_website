@@ -4,7 +4,8 @@ import BlogsCard from "./BlogsCard";
 const TagsContainer = () => {
     const blogsAllData = useLoaderData();
     const { blogData } = blogsAllData;
-    console.log(blogData);
+ 
+
     return (
         <div>
             <div className="grid gap-4 md:grid-cols-2">

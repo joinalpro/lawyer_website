@@ -10,7 +10,7 @@ import Modal from "./Modal";
 
 const BookAnAppointment = ({ services }) => {
     const location = useLocation()
-    
+
     const settings = {
         focusOnSelect: true,
         infinite: true,
@@ -50,7 +50,7 @@ const BookAnAppointment = ({ services }) => {
                                 services.map(d => <div className=" bg-white py-4" key={d.id}>
                                     <h1 className="text-bla text-[18px] font-bold">{d.category}</h1>
                                     <p><span className="text-kalo font-bold">${d.price}</span> For a <span>{d.time}</span> min</p>
-                                    <NavLink>
+                                    <NavLink to="/contact">
                                         <button className="hover:bg-bg_button border border-[#f1ae60] mt-2 px-12 py-2 text-bla font-bold ">Consult Now</button>
                                     </NavLink>
                                 </div>)
@@ -64,7 +64,7 @@ const BookAnAppointment = ({ services }) => {
                                 services.map(d => <div className=" bg-white py-4" key={d.id}>
                                     <h1 className="text-bla text-[18px] font-bold">{d.category}</h1>
                                     <p><span className="text-kalo font-bold">${d.price}</span> For a <span>{d.time}</span> min</p>
-                                    <NavLink>
+                                    <NavLink to="/contact">
                                         <button className="hover:bg-bg_button border border-[#f1ae60] mt-2 px-12 py-2 text-bla font-bold ">Consult Now</button>
                                     </NavLink>
                                 </div>)
@@ -73,7 +73,11 @@ const BookAnAppointment = ({ services }) => {
                     </div>
                 </div>
                 {/* get Stard */}
-                <div className="p-3 w-full bg-[#ffffff] ">
+                <div
+                    data-aos="flip-right"
+                    data-aos-duration="5000"
+
+                    className="p-3  w-full bg-[#ffffff] ">
                     <h2 className="text-2xl font-bold font-fontMartel text-center text-[#1c0c3a]">Get Started</h2>
                     {/* input full name */}
                     <label>
@@ -89,40 +93,40 @@ const BookAnAppointment = ({ services }) => {
                     </div>
                     <div className="grid grid-cols-2 gap-3">
                         {/* service */}
-                    <div className="mt-4">
-                        <label className="">
-                            <span className="text-kalo font-semibold">Service</span>
-                            <input type="text" className="w-full border mt-1 font-semibold rounded-xl bg-[#f6f2e2] text-[#1c0c3a] outline-none py-3 px-4 " placeholder="service" />
-                        </label>
-                    </div>
+                        <div className="mt-4">
+                            <label className="">
+                                <span className="text-kalo font-semibold">Service</span>
+                                <input type="text" className="w-full border mt-1 font-semibold rounded-xl bg-[#f6f2e2] text-[#1c0c3a] outline-none py-3 px-4 " placeholder="service" />
+                            </label>
+                        </div>
                         {/* Amout */}
-                    <div className="mt-4">
-                        <label className="">
-                            <span className="text-kalo font-semibold">Amout</span>
-                            <input type="text" className="w-full border mt-1 font-bold rounded-xl bg-[#f6f2e2] text-[#1c0c3a] outline-none py-3 px-4 " placeholder="$" />
-                        </label>
-                    </div>
+                        <div className="mt-4">
+                            <label className="">
+                                <span className="text-kalo font-semibold">Amout</span>
+                                <input type="text" className="w-full border mt-1 font-bold rounded-xl bg-[#f6f2e2] text-[#1c0c3a] outline-none py-3 px-4 " placeholder="$" />
+                            </label>
+                        </div>
                         {/* Date */}
-                    <div className="">
-                        <label className="">
-                            <span className="text-kalo font-semibold">Date</span>
-                            <input type="date" className="w-full border mt-1 font-bold rounded-xl bg-[#f6f2e2] text-[#1c0c3a] outline-none py-3 px-4 " placeholder="Date" />
-                        </label>
-                    </div>
+                        <div className="">
+                            <label className="">
+                                <span className="text-kalo font-semibold">Date</span>
+                                <input type="date" className="w-full border mt-1 font-bold rounded-xl bg-[#f6f2e2] text-[#1c0c3a] outline-none py-3 px-4 " placeholder="Date" />
+                            </label>
+                        </div>
                         {/* Time */}
-                    <div className="">
-                        <label className="">
-                            <span className="text-kalo font-semibold">Time</span>
-                            <input type="time" className="w-full border mt-1 font-bold rounded-xl bg-[#f6f2e2] text-[#1c0c3a] outline-none py-3 px-4 " placeholder="Time" />
-                        </label>
+                        <div className="">
+                            <label className="">
+                                <span className="text-kalo font-semibold">Time</span>
+                                <input type="time" className="w-full border mt-1 font-bold rounded-xl bg-[#f6f2e2] text-[#1c0c3a] outline-none py-3 px-4 " placeholder="Time" />
+                            </label>
+                        </div>
                     </div>
-                    </div>
-                    <button 
-                    onClick={() => document.getElementById('my_modal_5').showModal()}
-                    className="flex mt-4 justify-center items-center gap-2 font-bold text-bla bg-bg_button w-full py-3 text-[17px]">Submit Request <FiArrowRightCircle className="text-xl"/></button>
+                    <button
+                        onClick={() => document.getElementById('my_modal_5').showModal()}
+                        className="flex mt-4 justify-center items-center gap-2 font-bold text-bla bg-bg_button w-full py-3 text-[17px]">Submit Request <FiArrowRightCircle className="text-xl" /></button>
                 </div>
             </div>
-            <Modal/>
+            <Modal />
         </section>
     );
 };

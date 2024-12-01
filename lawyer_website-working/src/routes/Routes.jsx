@@ -14,6 +14,8 @@ import TagsContainer from "../components/TagsContainer";
 import BlogDetails from "../components/BlogDetails";
 import Testimonials from "../components/Testimonials";
 import Contact from "../components/Contact";
+import RecentPost from "../pages/RecentPost";
+import RecentPostDetails from "../components/RecentPostDetails";
 // import TagsContainer from "../components/TagsContainer";
 
 
@@ -97,7 +99,17 @@ const router = createBrowserRouter([
             {
                 path: '/blogs',
                 element: <Blogs />,
-                loader: () => fetch('/blogCategory.json'),
+                loader: async () => {
+                    // recent data load kora holo
+                    const recentRes = await fetch('/recent.json');
+                    const recentData = await recentRes.json();
+
+                    // category Tags btn data load kora hoyese
+                    const categoryBtnRes = await fetch('/blogCategory.json');
+                    const categoryTagsBtn = await categoryBtnRes.json();
+                 
+                    return {categoryTagsBtn, recentData}
+                },
                 children: [
                     {
                         path: '/blogs',
@@ -114,12 +126,17 @@ const router = createBrowserRouter([
                         path: '/blogs/:category',
                         element: <TagsContainer />,
                         loader: async ({ params }) => {
+                            // blogs category button er data ja loop kore dekhabe 
                             const blogRes = await fetch('/blog.json');
                             const data = await blogRes.json();
                              const blogData = data.filter(blog => blog.category === params.category)
-                            return { blogData }
+                            return { blogData}
                         }
                     },
+                    {
+                        path: '/blogs/:id',
+                        element: <RecentPostDetails/>
+                    }
                 ]
             },
             {
@@ -133,7 +150,10 @@ const router = createBrowserRouter([
                     //cetegory btn data 
                     const categoryRes = await fetch('/blogCategory.json');
                     const categoryBtnData = await categoryRes.json();
-                    return { BlogDetails, categoryBtnData };
+                       // recent data load kora holo
+                       const recentRes = await fetch('/recent.json');
+                       const recentData = await recentRes.json();
+                    return { BlogDetails, categoryBtnData , recentData};
                 }
             },
             {
@@ -151,6 +171,10 @@ const router = createBrowserRouter([
                 path: '/contact',
                 element: <Contact/>,
                 loader: () => fetch('/serviceLawyer.json')
+            },
+            {
+                path: '/recentPost',
+                element: <RecentPost/>
             }
 
         ]

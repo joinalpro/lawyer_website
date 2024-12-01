@@ -12,9 +12,20 @@ import FaqsCard from "../components/FaqsCard";
 import BlogsCard from "../components/BlogsCard";
 
 
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Pagination } from 'swiper/modules';
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/pagination';
+
+
+
 const Home = () => {
     const servicesData = useLoaderData()
     const { services, clientData, faqsData, blogData } = servicesData;
+
+    //
+    
     return (
         <div>
             <Banner />
@@ -82,13 +93,42 @@ const Home = () => {
                         </div>
                     </div>
                     {/* client section map kore dekhano holo */}
-                    <div className="grid gap-4 mt-10 md:grid-cols-3">
-                        {
-                            clientData.slice(0, 3).map((client) => <ClientReviewCard key={client.id} client={client} ></ClientReviewCard>)
-                        }
+                    <div className="hidden md:block">
+                        <Swiper
+                            slidesPerView={3}
+                            spaceBetween={15}
+                            pagination={{
+                                clickable: true,
+                            }}
+                            modules={[Pagination]}
+                            className="mySwiper"
+                        >
+                            {clientData.map((client) => (
+                                <SwiperSlide className="mt-10" key={client.id}>
+                                    <ClientReviewCard client={client}></ClientReviewCard>
+                                </SwiperSlide>
+                            ))}
+                        </Swiper>
+                    </div>
+                    <div className="md:hidden">
+                        <Swiper
+                            slidesPerView={1}
+                            spaceBetween={15}
+                            pagination={{
+                                clickable: true,
+                            }}
+                            modules={[Pagination]}
+                            className="mySwiper"
+                        >
+                            {clientData.map((client) => (
+                                <SwiperSlide className="mt-10" key={client.id}>
+                                    <ClientReviewCard client={client}></ClientReviewCard>
+                                </SwiperSlide>
+                            ))}
+                        </Swiper>
                     </div>
                 </section>
-           
+
             </main>
             {/* faqs  */}
             <section>
@@ -125,7 +165,7 @@ const Home = () => {
                     {/* new blogs data show */}
                     <div className="grid mt-8 gap-4 md:grid-cols-3">
                         {
-                            blogData.slice(0,3).map(blog => <BlogsCard key={blog.id} blog={blog}></BlogsCard>)
+                            blogData.slice(0, 3).map(blog => <BlogsCard key={blog.id} blog={blog}></BlogsCard>)
                         }
                     </div>
                 </section>
