@@ -14,7 +14,7 @@ const BlogDetails = () => {
     return (
         <section>
             <SectionTitle title="Home > Blogs > Details" />
-            <div className="flex flex-col-reverse lg:flex-row gap-4 mb-10 lg:w-10/12 mx-auto px-2 lg:px-0">
+            <div className="flex mt-10 flex-col-reverse lg:flex-row gap-4 mb-10 lg:w-10/12 mx-auto px-2 lg:px-0">
                 <div className="lg:w-2/3 ">
                     <figure className="w-full lg:h-[480px]">
                         <img className="w-full h-full object-cover" src={img} alt="" />
@@ -35,7 +35,7 @@ const BlogDetails = () => {
                         <p className="text-kalo">{description2}</p>
 
                         {/* section  */}
-                        {/* <div className="flex gap-4 lg:gap-0 py-4 flex-col md:flex-row ">
+                        <div className="flex gap-4 lg:gap-0 py-4 flex-col md:flex-row ">
                             <div className="h-[350px] lg:mr-4  w-full">
                                 <img className="w-full  h-full object-cover" src={sections[0].img} alt="" />
                             </div>
@@ -43,20 +43,20 @@ const BlogDetails = () => {
                                 <img className="w-full h-full object-cover" src={sections[1].img} alt="" />
                             </div>
                             <div></div>
-                        </div> */}
+                        </div>
                         {/* subTitel */}
-                        {/* <h2 className="text-xl  font-bold font-fontMartel text-bla">{sections[0].heading}</h2> */}
+                        <h2 className="text-xl  font-bold font-fontMartel text-bla">{sections[0].heading}</h2>
                         {/* description2 */}
-                        {/* <p className="text-kalo">{sections[0].description}</p>
-                        <p className="text-kalo">{sections[0].sub_description1}</p> */}
+                        <p className="text-kalo">{sections[0].description}</p>
+                        <p className="text-kalo">{sections[0].sub_description1}</p>
                         {/* subTitel */}
-                        {/* <h2 className="text-xl  font-bold font-fontMartel text-bla">{sections[0].title}</h2> */}
-                        {/* <h2 className=""><span className="text-xl  font-bold font-fontMartel text-bla">. Academic Excellence:</span> <span className="text-kalo">{sections[0].AcademicExcellence}</span></h2> */}
-                        {/* <h2 className=""><span className="text-xl  font-bold font-fontMartel text-bla">. Enhanced Creativity: </span> <span className="text-kalo">{sections[0].Enhanced}</span></h2> */}
-                        {/* <h2 className=""><span className="text-xl  font-bold font-fontMartel text-bla">. Teacher Empowerment: </span> <span className="text-kalo">{sections[0].TeacherEmpowerment}</span></h2> */}
-                        {/* <div className="pb-3 w-full">
+                        <h2 className="text-xl  font-bold font-fontMartel text-bla">{sections[0].title}</h2>
+                        <h2 className=""><span className="text-xl  font-bold font-fontMartel text-bla">. Academic Excellence:</span> <span className="text-kalo">{sections[0].AcademicExcellence}</span></h2>
+                        <h2 className=""><span className="text-xl  font-bold font-fontMartel text-bla">. Enhanced Creativity: </span> <span className="text-kalo">{sections[0].Enhanced}</span></h2>
+                        <h2 className=""><span className="text-xl  font-bold font-fontMartel text-bla">. Teacher Empowerment: </span> <span className="text-kalo">{sections[0].TeacherEmpowerment}</span></h2>
+                        <div className="pb-3 w-full">
                             <img className="w-full object-cover" src={sections[2].img} alt="" />
-                        </div> */}
+                        </div>
                         {/* comments */}
                         <h1 className="text-xl  font-bold font-fontMartel text-bla">20 Comment</h1>
 

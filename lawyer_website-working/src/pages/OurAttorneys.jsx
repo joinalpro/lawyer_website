@@ -6,7 +6,6 @@ import BookAnAppointment from "../components/BookAnAppointment";
 
 const OurAttorneys = () => {
     const serviceAttorney = useLoaderData();
-    console.log(serviceAttorney);
     return (
         <main>
             {/* titel section */}

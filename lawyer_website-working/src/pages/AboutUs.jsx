@@ -4,7 +4,7 @@ import { IoMdPlay } from "react-icons/io";
 import daripalla from '../assets/dariPalla.png'
 import HappyClient from "../components/HappyClient";
 import OurProces from "../components/OurProces";
-import { useLoaderData } from "react-router-dom";
+import { Link, useLoaderData } from "react-router-dom";
 import BookAnAppointment from "../components/BookAnAppointment";
 
 const AboutUs = () => {
@@ -42,9 +42,11 @@ const AboutUs = () => {
                             <img src={aboutImg} alt="" />
                         </figure>
                         <div>
-                            <button className="pluse z-10">
+                          <Link to="">
+                          <button className="pluse z-10">
                                 <IoMdPlay />
                             </button>
+                          </Link>
                         </div>
                     </div>
                 </div>

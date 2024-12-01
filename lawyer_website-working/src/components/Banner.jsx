@@ -8,7 +8,7 @@ const Banner = () => {
             <div className="lg:w-10/12 text-white md:mx-auto px-2 lg:px-0">
                 <div className="flex lg:gap-20 gap-4 flex-col md:flex-row items-center">
                     <div className="md:w-2/3 space-y-5">
-                        <h1 className="lg:text-6xl text-3xl font-bold font-fontMartel animate__animated animate__backInLeft overflow-hidden">Unbelievable Solutions for all Legal Cases.</h1>
+                        <h1 className="lg:text-6xl text-3xl font-bold font-fontMartel animate__animated animate__backInLeft text-[#ffffff]  overflow-hidden">Unbelievable Solutions for all Legal Cases.</h1>
                         <p className="">A visually striking area at the top of the page featuring a headline, subheadline, and a call-to-action button to encourage </p>
                         <div className="flex items-center gap-6">
                             <Link>

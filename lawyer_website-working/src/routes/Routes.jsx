@@ -107,8 +107,8 @@ const router = createBrowserRouter([
                     // category Tags btn data load kora hoyese
                     const categoryBtnRes = await fetch('/blogCategory.json');
                     const categoryTagsBtn = await categoryBtnRes.json();
-                 
-                    return {categoryTagsBtn, recentData}
+
+                    return { categoryTagsBtn, recentData }
                 },
                 children: [
                     {
@@ -129,13 +129,22 @@ const router = createBrowserRouter([
                             // blogs category button er data ja loop kore dekhabe 
                             const blogRes = await fetch('/blog.json');
                             const data = await blogRes.json();
-                             const blogData = data.filter(blog => blog.category === params.category)
-                            return { blogData}
+                            const blogData = data.filter(blog => blog.category === params.category)
+                            return { blogData }
                         }
                     },
                     {
-                        path: '/blogs/:id',
-                        element: <RecentPostDetails/>
+                        path: '/blogs/recent/:id',
+                        element: <RecentPostDetails />,
+                        loader: async ({params}) => {
+                            // recent data load kora holo
+                            const recentRes = await fetch('/recent.json');
+                            const recentData = await recentRes.json();
+                            // find
+                            const postData = recentData.find(post => post.id == params.id)
+                            return postData
+                        }
+
                     }
                 ]
             },
@@ -150,31 +159,31 @@ const router = createBrowserRouter([
                     //cetegory btn data 
                     const categoryRes = await fetch('/blogCategory.json');
                     const categoryBtnData = await categoryRes.json();
-                       // recent data load kora holo
-                       const recentRes = await fetch('/recent.json');
-                       const recentData = await recentRes.json();
-                    return { BlogDetails, categoryBtnData , recentData};
+                    // recent data load kora holo
+                    const recentRes = await fetch('/recent.json');
+                    const recentData = await recentRes.json();
+                    return { BlogDetails, categoryBtnData, recentData };
                 }
             },
             {
                 path: '/testimonials',
-                element: <Testimonials/>,
+                element: <Testimonials />,
                 loader: async () => {
                     const clientRes = await fetch('/clientReview.json');
                     const clientData = await clientRes.json();
                     const res = await fetch('/serviceLawyer.json')
                     const services = await res.json()
-                    return {clientData, services}
+                    return { clientData, services }
                 }
             },
             {
                 path: '/contact',
-                element: <Contact/>,
+                element: <Contact />,
                 loader: () => fetch('/serviceLawyer.json')
             },
             {
                 path: '/recentPost',
-                element: <RecentPost/>
+                element: <RecentPost />
             }
 
         ]

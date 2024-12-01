@@ -11,8 +11,9 @@ export default {
         dancing: ["Dancing Script"]
       },
       backgroundImage: {
-        bannerImg: "url('../src/assets/bg-lawyer.jpg')",
-        serviceImg: "url('../src/assets/lawyer-img.jpg')" 
+        bannerImg: "url('../src/assets/bannerBgImg.png')",
+        serviceImg: "url('../src/assets/lawyer-img.jpg')" ,
+        footerImg: "url('../src/assets/footerImg.jpg')" 
       },
       backgroundColor: {
         bg_button: "#f2af60"

@@ -13,7 +13,7 @@ const Service = () => {
           
             <SectionTitle  title="Home > Service"/>
             <div className="text-center space-y-1 mt-10">
-                <p className="text-bla font-bold text-[18px]">Our Services</p>
+                <p className="text-bla font-bold">Our Services</p>
                 <h3 className="text-3xl font-bold font-fontMartel">We Provided Legal & Lawyer Services</h3>
                 <p className="text-kalo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis</p>
             </div>

@@ -1,82 +1,35 @@
 [
     {
         "id": 1,
-        "date": "18 Jul 2024",
-        "heading": "Key Features of the Eurovision Smart School",
-        "description": "The project began by revamping the school's infrastructure, turning it into a technologically advanced hub. This included the installation of high-speed internet, interactive smartboards in every classroom, and a",
-        "sub_description1": "The Eurovision Smart School adopted a personalized learning approach, leveraging artificial intelligence to tailor lessons to individual student needs. Each student's progress was tracked and analyzed, allowing for real-time",
         "title": "Should I Get a Lawyer for a Minor Car Accident?",
-        "sub_description2": "Without immediate legal and medical advice, these complications can become challenging to claim compensation for. An experienced car crash lawyer can guide you in securing medical assessments, documenting your injuries properly, and ensuring that your rights to compensation are fully protected.",
-        "AcademicExcellence": "The project saw a significant improvement in academic performance, with students consistently outperforming national averages in standardized tests.",
-        "Enhanced": "The personalized learning approach nurtured students' creativity and critical thinking skills, preparing them for the challenges of the 21st  ry.",
-        "TeacherEmpowerment": "Teachers reported a heightened sense of empowerment, as they could tailor their teaching methods to suit individual student needs.",
-        "GlobalCitizenship": "The global outreach program fostered a sense of global citizenship among students, preparing them to be future leaders in an interconnected world.",
-        "img": "https://t3.ftcdn.net/jpg/01/29/85/36/240_F_129853658_0pmkcWuH2e0LiXFbZGyUpRrdOeXHIR09.jpg",
-        "sections": [
-            {
-                "heading": "Delayed Medical Complications",
-                "description": "Maintaining road safety and adhering to traffic rules can significantly reduce accident risks.",
-                "img": "https://t4.ftcdn.net/jpg/02/73/70/03/240_F_273700374_Lbw4QDSRa5JlQtv9RJzBMqNc3fIelpIw.jpg"
-            },
-            {
-                "heading": "Legal Assistance",
-                "description": "Consulting a lawyer ensures proper guidance and representation during claims and settlements.",
-                "img": "https://t3.ftcdn.net/jpg/03/50/00/58/240_F_350005837_8Z7uO9wa2j7GsyF8eZipqIpCOddb2vY0.jpg"
-            }
-        ]
+        "description": "A deep dive into the fundamental principles and frameworks that govern a nation’s constitution.",
+        "author": "Dr. Amanda Clark",
+        "date": "2024-11-30",
+        "tags": ["constitutional law", "legal framework", "governance"],
+        "read_time": "8 min",
+        "category": "Law & Governance",
+        "img": "https://t3.ftcdn.net/jpg/07/37/48/28/240_F_737482898_RvurjlgAri5B5AmTGmrWdaE6q3F0eDCq.jpg"
     },
     {
         "id": 2,
-        "date": "17 Apr 2014",
-        "heading": "Key Features of the Eurovision Smart School",
-        "description": "The project began by revamping the school's infrastructure, turning it into a technologically advanced hub. This included the installation of high-speed internet, interactive smartboards in every classroom, and a",
-        "sub_description1": "The Eurovision Smart School adopted a personalized learning approach, leveraging artificial intelligence to tailor lessons to individual student needs. Each student's progress was tracked and analyzed, allowing for real-time",
-        "title": "Should I Get a Lawyer for a Minor Car Accident?",
-        "sub_description2": "Without immediate legal and medical advice, these complications can become challenging to claim compensation for. An experienced car crash lawyer can guide you in securing medical assessments, documenting your injuries properly, and ensuring that your rights to compensation are fully protected.",
-        "AcademicExcellence": "The project saw a significant improvement in academic performance, with students consistently outperforming national averages in standardized tests.",
-        "Enhanced": "The personalized learning approach nurtured students' creativity and critical thinking skills, preparing them for the challenges of the 21st  ry.",
-        "TeacherEmpowerment": "Teachers reported a heightened sense of empowerment, as they could tailor their teaching methods to suit individual student needs.",
-        "GlobalCitizenship": "The global outreach program fostered a sense of global citizenship among students, preparing them to be future leaders in an interconnected world.",
-        "img": "https://t3.ftcdn.net/jpg/01/29/85/36/240_F_129853658_0pmkcWuH2e0LiXFbZGyUpRrdOeXHIR09.jpg",
-        "sections": [
-            {
-                "heading": "Delayed Medical Complications",
-                "description": "Maintaining road safety and adhering to traffic rules can significantly reduce accident risks.",
-                "img": "https://t4.ftcdn.net/jpg/02/73/70/03/240_F_273700374_Lbw4QDSRa5JlQtv9RJzBMqNc3fIelpIw.jpg"
-            },
-            {
-                "heading": "Legal Assistance",
-                "description": "Consulting a lawyer ensures proper guidance and representation during claims and settlements.",
-                "img": "https://t3.ftcdn.net/jpg/03/50/00/58/240_F_350005837_8Z7uO9wa2j7GsyF8eZipqIpCOddb2vY0.jpg"
-            }
-        ]
+        "title": "Consumer Rights and Protection Laws",
+        "description": "An overview of the laws designed to protect consumers from unfair trade practices and ensure justice.",
+        "author": "John Taylor",
+        "date": "2024-11-29",
+        "tags": ["consumer rights", "legal advice", "justice"],
+        "read_time": "5 min",
+        "category": "Consumer Law",
+        "img": "https://t3.ftcdn.net/jpg/08/62/22/88/240_F_862228861_J2ZrXSPhYneUmTcy6viHwaZnq5H4lXe3.jpg"
     },
     {
         "id": 3,
-        "date": "5 July 2024",
-        "heading": "Key Features of the Eurovision Smart School",
-        "description": "The project began by revamping the school's infrastructure, turning it into a technologically advanced hub. This included the installation of high-speed internet, interactive smartboards in every classroom, and a",
-        "sub_description1": "The Eurovision Smart School adopted a personalized learning approach, leveraging artificial intelligence to tailor lessons to individual student needs. Each student's progress was tracked and analyzed, allowing for real-time",
-        "title": "Should I Get a Lawyer for a Minor Car Accident?",
-        "sub_description2": "Without immediate legal and medical advice, these complications can become challenging to claim compensation for. An experienced car crash lawyer can guide you in securing medical assessments, documenting your injuries properly, and ensuring that your rights to compensation are fully protected.",
-        "AcademicExcellence": "The project saw a significant improvement in academic performance, with students consistently outperforming national averages in standardized tests.",
-        "Enhanced": "The personalized learning approach nurtured students' creativity and critical thinking skills, preparing them for the challenges of the 21st  ry.",
-        "TeacherEmpowerment": "Teachers reported a heightened sense of empowerment, as they could tailor their teaching methods to suit individual student needs.",
-        "GlobalCitizenship": "The global outreach program fostered a sense of global citizenship among students, preparing them to be future leaders in an interconnected world.",
-        "img": "https://t3.ftcdn.net/jpg/01/29/85/36/240_F_129853658_0pmkcWuH2e0LiXFbZGyUpRrdOeXHIR09.jpg",
-        "sections": [
-            {
-                "heading": "Delayed Medical Complications",
-                "description": "Maintaining road safety and adhering to traffic rules can significantly reduce accident risks.",
-                "img": "https://t4.ftcdn.net/jpg/02/73/70/03/240_F_273700374_Lbw4QDSRa5JlQtv9RJzBMqNc3fIelpIw.jpg"
-            },
-            {
-                "heading": "Legal Assistance",
-                "description": "Consulting a lawyer ensures proper guidance and representation during claims and settlements.",
-                "img": "https://t3.ftcdn.net/jpg/03/50/00/58/240_F_350005837_8Z7uO9wa2j7GsyF8eZipqIpCOddb2vY0.jpg"
-            }
-        ]
+        "title": "Cybercrime and Legal Regulations",
+        "description": "Explore the evolving field of cyber law and the measures taken to combat cybercrime in the digital era.",
+        "author": "Sophia Roberts",
+        "date": "2024-11-28",
+        "tags": ["cyber law", "digital security", "technology"],
+        "read_time": "7 min",
+        "category": "Technology Law",
+        "img": "https://t4.ftcdn.net/jpg/07/90/69/33/240_F_790693385_RzHgLJxVOwFPxnB3nsDKfETvIbAw8ABa.jpg"
     }
-    
-    
 ]

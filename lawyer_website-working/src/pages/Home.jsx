@@ -60,7 +60,7 @@ const Home = () => {
             {/* our Attorneys */}
             <section className="lg:w-10/12 my-16 mx-auto px-2 lg:px-0">
                 <div className="text-center">
-                    <p className="text-bla  text-[18px] font-bold">Our Attorneys</p>
+                    <p className="text-bla font-bold">Our Attorneys</p>
                     <h2 className="text-3xl text-bla mt-3 font-bold font-fontMartel">Our Intellectual Lawyer For You.</h2>
                     <p className="text-kalo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis</p>
                 </div>
@@ -76,7 +76,7 @@ const Home = () => {
                     {/* client text contant */}
                     <div className="lg:flex justify-between items-center">
                         <div>
-                            <p className="text-bla text-[18px] font-bold">Testimonials</p>
+                            <p className="text-bla text-[16px] font-bold">Testimonials</p>
                             <h2 className="text-3xl text-bla mt-3 font-bold font-fontMartel">Know What they Say about Our Services.</h2>
                             <p className="text-kalo mt-2">We provide the highest-quality advice and legal insight in resolving issues.</p>
                         </div>
@@ -133,7 +133,7 @@ const Home = () => {
             {/* faqs  */}
             <section>
                 <div className="text-center my-10">
-                    <p className="text-bla  text-[18px] font-bold">FAQs</p>
+                    <p className="text-bla  font-bold">FAQs</p>
                     <h2 className="text-3xl text-bla mt-3 font-bold font-fontMartel">Frequently Asked Questions</h2>
                     <p className="text-kalo">Answers to common questions we hear often · How much does an attorney cost</p>
                 </div>
