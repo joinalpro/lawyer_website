@@ -25,7 +25,7 @@ const Home = () => {
     const { services, clientData, faqsData, blogData } = servicesData;
 
     //
-    
+
     return (
         <div>
             <Banner />
@@ -64,10 +64,71 @@ const Home = () => {
                     <h2 className="text-3xl text-bla mt-3 font-bold font-fontMartel">Our Intellectual Lawyer For You.</h2>
                     <p className="text-kalo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis</p>
                 </div>
-                <div className="grid mt-5 gap-4 md:grid-cols-3 lg:grid-cols-4">
-                    {
-                        services.slice(0, 4).map(attorney => <AttorneyCart key={attorney.id} attorney={attorney}></AttorneyCart>)
-                    }
+                {/* lg devise responsive */}
+                <div className="hidden mt-4 lg:block">
+                    <Swiper
+                        slidesPerView={4}
+                        spaceBetween={16}
+                        pagination={{
+                            clickable: true,
+                        }}
+                        modules={[Pagination]}
+                        className="mySwiper"
+                    >
+                        {
+                            services.map(attorney => 
+                                <SwiperSlide key={attorney.id}>
+                                    <AttorneyCart  attorney={attorney}></AttorneyCart>
+                                </SwiperSlide>
+                                
+                            
+                            )
+                        }
+                          </Swiper>
+                </div>
+                {/* medium devise responsive */}
+                <div className="hidden mt-4 md:block lg:hidden">
+                    <Swiper
+                        slidesPerView={3}
+                        spaceBetween={16}
+                        pagination={{
+                            clickable: true,
+                        }}
+                        modules={[Pagination]}
+                        className="mySwiper"
+                    >
+                        {
+                            services.map(attorney => 
+                                <SwiperSlide key={attorney.id}>
+                                    <AttorneyCart  attorney={attorney}></AttorneyCart>
+                                </SwiperSlide>
+                                
+                            
+                            )
+                        }
+                          </Swiper>
+                </div>
+                {/* mobile divise responsive swipper slider */}
+                <div className="mt-4 md:hidden">
+                    <Swiper
+                        slidesPerView={1}
+                        spaceBetween={30}
+                        pagination={{
+                            clickable: true,
+                        }}
+                        modules={[Pagination]}
+                        className="mySwiper"
+                    >
+                        {
+                            services.map(attorney => 
+                                <SwiperSlide key={attorney.id}>
+                                    <AttorneyCart  attorney={attorney}></AttorneyCart>
+                                </SwiperSlide>
+                                
+                            
+                            )
+                        }
+                          </Swiper>
                 </div>
             </section>
             {/* Testimonials client review section */}
@@ -76,7 +137,7 @@ const Home = () => {
                     {/* client text contant */}
                     <div className="lg:flex justify-between items-center">
                         <div>
-                            <p className="text-bla text-[16px] font-bold">Testimonials</p>
+                            <p className="text-bla text-[16px] font-bold animate__animated animate__bounce animate__slower">Testimonials</p>
                             <h2 className="text-3xl text-bla mt-3 font-bold font-fontMartel">Know What they Say about Our Services.</h2>
                             <p className="text-kalo mt-2">We provide the highest-quality advice and legal insight in resolving issues.</p>
                         </div>

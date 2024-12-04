@@ -41,12 +41,12 @@ const Footer = () => {
                 </div>
                 <div>
                     <h6 className="font-bold text-xl font-fontMartel mb-3 hover:text-orange-400">Out service</h6>
-                    <div className="space-y-3">
-                        <Link to="#">
+                    <div className="flex flex-col space-y-2">
+                        <Link to="">
                             <p className="link link-hover hover:text-orange-400">Criminal Lawyer</p>
                         </Link>
                      
-                        <Link to="money">
+                        <Link to="">
                             <p className="link link-hover hover:text-orange-400">Money Case</p>
                         </Link>
                         <Link>
@@ -65,7 +65,7 @@ const Footer = () => {
                 </div>
                 <div className="flex space-y-2 flex-col">
                     <h6 className="font-bold text-xl font-fontMartel mb-3 hover:text-orange-400">Quick Links</h6>
-                    <Link to="/about" className="link link-hover hover:text-orange-400">About Us</Link>
+                    <Link to="" className="link link-hover hover:text-orange-400">About Us</Link>
                     <Link className="link link-hover hover:text-orange-400">Service</Link>
                     <Link className="link link-hover hover:text-orange-400">Case Results</Link>
                     <Link className="link link-hover hover:text-orange-400">Testimonials </Link>

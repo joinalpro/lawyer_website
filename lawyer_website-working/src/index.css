@@ -75,6 +75,12 @@ html{
   animation: pluse 2s 1s ease-out infinite;
 }
 
+.MuiCheckbox-colorPrimary{
+  color: #f2af60 !important;
+  padding: 5px;
+  overflow: hidden;
+}
+
 @keyframes pluse{
   100%{
     transform: scale(2.5);

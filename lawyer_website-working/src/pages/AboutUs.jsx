@@ -16,7 +16,7 @@ const AboutUs = () => {
             <section className="lg:w-10/12 my-16 mb-36 mx-auto px-2 lg:px-0">
                 <div className="lg:flex gap-[68px] ">
                     <div className="lg:w-[50%] ">
-                        <p className="text-[16px] font-bold text-bla mb-3">About Us</p>
+                        <p className="text-[16px] font-bold text-bla mb-3 animate__animated animate__bounce animate__slower">About Us</p>
                         <h1 className="text-[36px] leading-[45px] font-bold font-fontMartel text-bla">Get About our Law Firm & Learn About our Expertise.</h1>
                         <p className="text-kalo mt-5">Hero Section: A visually striking area at the top of the page featuring a headline, subheadline, and a call-to-action button to encourage visitors to learn more about your
                         </p>

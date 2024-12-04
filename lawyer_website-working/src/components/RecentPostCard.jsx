@@ -7,7 +7,7 @@ const RecentPostCard = ({ recent }) => {
     const { id, img, title, date } = recent
     return (
         <section className="mb-5">
-            <div className="flex ">
+            <div className="flex shadow-2xl shadow-[#e0e2ee]">
             
                     <img className="w-[144px] object-cover" src={img} alt="" />
                

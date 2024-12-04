@@ -16,6 +16,8 @@ import Testimonials from "../components/Testimonials";
 import Contact from "../components/Contact";
 import RecentPost from "../pages/RecentPost";
 import RecentPostDetails from "../components/RecentPostDetails";
+import CaseResult from "../pages/CaseResult";
+import CaseResultDetails from "../components/caseResultDetails";
 // import TagsContainer from "../components/TagsContainer";
 
 
@@ -184,7 +186,33 @@ const router = createBrowserRouter([
             {
                 path: '/recentPost',
                 element: <RecentPost />
+            },
+            {
+                path: "/caseResult",
+                element: <CaseResult/>,
+                loader: async () => {
+                    // case result data load kora holo 
+                    const caseRes = await fetch('/caseResult.json');
+                    const caseData = await caseRes.json();
+                    // service data load kora holo 
+                    const res = await fetch('/serviceLawyer.json')
+                    const services = await res.json()
+                    return {caseData , services}
+                }
+            },
+            {
+                path: '/caseResultDetails/:id',
+                element: <CaseResultDetails/>,
+                loader: async ({params}) => {
+                    const caseDetailsRes = await fetch('/caseResult.json');
+                    const caseDetailsData = await caseDetailsRes.json();
+
+                    const caseDetails = caseDetailsData.find(info => info.id == params.id);
+
+                    return {caseDetails}
+                }
             }
+
 
         ]
     },

@@ -10,7 +10,7 @@ const Banner = () => {
                     <div className="md:w-2/3 space-y-5">
                         <h1 className="lg:text-6xl text-3xl font-bold font-fontMartel animate__animated animate__backInLeft text-[#ffffff]  overflow-hidden">Unbelievable Solutions for all Legal Cases.</h1>
                         <p className="">A visually striking area at the top of the page featuring a headline, subheadline, and a call-to-action button to encourage </p>
-                        <div className="flex items-center gap-6">
+                        <div className="flex items-center gap-6 animate__animated animate__bounce animate__slower">
                             <Link>
                                 <button className="font-bold flex items-center gap-2 bg-bg_button px-6 py-3 text-black font-fontMartel ">Consult Now <FiArrowRightCircle className="text-xl"/></button>
                             </Link>

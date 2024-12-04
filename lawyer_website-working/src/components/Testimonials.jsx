@@ -14,7 +14,7 @@ const Testimonials = () => {
             {/* title section */}
             <SectionTitle title="Home>Testimonials"/>
             <div className="text-center mt-8">
-                <p className="text-bla text-[18px] font-bold">Testimonials</p>
+                <p className="text-bla text-[18px] font-bold animate__animated animate__bounce animate__slower">Testimonials</p>
                 <h2 className="text-3xl text-bla mt-3 font-bold font-fontMartel">Know What they Say about Our Services.</h2>
                 <p className="text-kalo mt-2">We provide the highest-quality advice and legal insight in resolving issues.</p>
             </div>

@@ -7,7 +7,6 @@ const NavLinks = () => {
 
     return (
         <>
-
             <div className="group">
                 <div className="flex items-center gap-2">
                     <h1>pages</h1>

@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "date": "14 Jun 2023",
+        "category": "Family Law",
+        "description": "Auctor augue mauris augue neque gravida in fermentum et sollicitudin. Ultrices eros in cursus turpis. Sagittis nisl rhoncus mattis rhoncus urna. Quis imperdiet massa tincidunt nunc. Bibendum arcu vitae",
+        "clientDetails": "Quam id leo in vitae turpis. Eros in cursus turpis massa. Augue eget arcu dictum varius duis at. Morbi tincidunt augue interdum velit euismod in pellent esque.Eu turpis egestas pretium aenean pharetra.",
+        "caseWinningProcess": [
+            "Detailed legal analysis and planning.",
+            "Strategize courtroom arguments and supporting documents.",
+            "Effective presentation and closure."
+        ],
+        "img": "https://t3.ftcdn.net/jpg/09/87/22/40/240_F_987224026_e5JjgfclZuokEgfry5YzGCzvhN51rwOR.jpg",
+        "clientName": "Shaidul Islam",
+        "serviceName": "Family Law",
+        "timeFrame": "4 Months",
+        "year": 2024,
+        "lawyer": "Morisen Jordan",
+        "title": "Car Accident",
+        "image": "https://t3.ftcdn.net/jpg/03/79/01/16/240_F_379011604_wwiVggDdZdqgq1yWiio6n8uQt3FfcGyO.jpg"
+    },
+    {
+        "id": 2,
+        "date": "21 May 2023",
+        "category": "Corporate Law",
+        "description": "Details about handling corporate legal cases.",
+        "clientDetails": "Corporate clients seeking mergers and acquisitions guidance.",
+        "caseWinningProcess": [
+            "Contract reviews and risk analysis.",
+            "Legal representation in board negotiations.",
+            "Ensuring regulatory compliance."
+        ],
+        "img": "https://t3.ftcdn.net/jpg/10/52/67/56/240_F_1052675603_y2mCIkmGyyFlNrBcixNf4fuHD8jrtAFU.jpg",
+        "clientName": "Ayesha Khan",
+        "serviceName": "Criminal Law",
+        "timeFrame": "6 Months",
+        "year": 2023,
+        "lawyer": "David Anderson",
+        "title": "Workplace Injury",
+        "image": "https://t4.ftcdn.net/jpg/02/64/93/39/240_F_264933933_fA2kPbslEXN32bUXFrS3rwtCCshrwgdR.jpg"
+    },
+    {
+        "id": 3,
+        "date": "10 Aug 2023",
+        "category": "Criminal Law",
+        "description": "Support for criminal defense cases.",
+        "clientDetails": "Quam id leo in vitae turpis. Eros in cursus turpis massa. Augue eget arcu dictum varius duis at. Morbi tincidunt augue interdum velit euismod in pellent esque.Eu turpis egestas pretium aenean pharetra.",
+        "caseWinningProcess": [
+            "Gathering and analyzing evidence.",
+            "Building strong defense strategies.",
+            "Cross-examination and trial preparation."
+        ],
+        "img": "https://t4.ftcdn.net/jpg/10/25/69/77/240_F_1025697720_WDVlwjU5uMvJJgL1DZc79mx9suxptU4d.jpg",
+        "clientName": "John Doe",
+        "serviceName": "Corporate Law",
+        "timeFrame": "3 Months",
+        "year": 2024,
+        "lawyer": "Emily Carter",
+        "title": "Property Dispute",
+        "image": "https://t3.ftcdn.net/jpg/10/81/28/44/240_F_1081284455_RVIpHXhVSpo4tIuyaKLWfwnAOh6CQR09.jpg"
+    },
+    {
+        "id": 4,
+        "date": "5 Jan 2023",
+        "category": "Immigration Law",
+        "description": "Legal assistance with immigration processes.",
+        "clientDetails": "Quam id leo in vitae turpis. Eros in cursus turpis massa. Augue eget arcu dictum varius duis at. Morbi tincidunt augue interdum velit euismod in pellent esque.Eu turpis egestas pretium aenean pharetra.",
+        "caseWinningProcess": [
+            "Application and document verification.",
+            "Filing forms with accurate details.",
+            "Representing clients in immigration interviews."
+        ],
+        "img": "https://t4.ftcdn.net/jpg/05/06/46/23/240_F_506462398_1QHPiJLn7qtrYKiE0RAKLTTxRd1dvxEV.jpg",
+        "clientName": "Maria Gonzales",
+        "serviceName": "Immigration Law",
+        "timeFrame": "5 Months",
+        "year": 2022,
+        "lawyer": "Robert Hughes",
+        "title": "Property Dispute",
+        "image": "https://t3.ftcdn.net/jpg/02/52/86/50/240_F_252865046_BlVd1udicxiaxQA1frB8FupvK7pOXVpZ.jpg"
+    },
+    {
+        "id": 5,
+        "date": "30 Nov 2023",
+        "category": "Civil Rights Law",
+        "description": "Representation for civil rights violations.",
+        "clientDetails": "Victims of discrimination or harassment.",
+        "caseWinningProcess": [
+            "Collecting reports and witness testimonies.",
+            "Filing cases in appropriate courts.",
+            "Pursuing settlements or courtroom verdicts."
+        ],
+        "img": "https://t4.ftcdn.net/jpg/09/48/04/91/240_F_948049121_aICKDgEqnm9H4Bs6h8AVhHVmsNH7pw18.jpg",
+        "clientName": "Ahmed Hossain",
+        "serviceName": "Tax Law",
+        "timeFrame": "2 Months",
+        "year": 2024,
+        "lawyer": "Sophia Bennett",
+        "title": "Consumer Rights",
+        "image": "https://t3.ftcdn.net/jpg/03/72/39/06/240_F_372390692_GigxzUio9i5CR400POGPsu71Jmg68ZrE.jpg"
+    },
+    {
+        "id": 6,
+        "date": "18 Feb 2023",
+        "category": "Tax Law",
+        "description": "Tax law solutions for individuals and businesses.",
+        "clientDetails": "Quam id leo in vitae turpis. Eros in cursus turpis massa. Augue eget arcu dictum varius duis at. Morbi tincidunt augue interdum velit euismod in pellent esque.Eu turpis egestas pretium aenean pharetra.",
+        "caseWinningProcess": [
+            "Reviewing financial statements and tax filings.",
+            "Liaising with tax authorities for settlements.",
+            "Advocating in tax tribunals."
+        ],
+        "img": "https://t4.ftcdn.net/jpg/10/45/37/21/240_F_1045372168_kPPC6TIfBZj8XFLVZvy5R4IpwjlbMTEL.jpg",
+        "clientName": "Rebecca Green",
+        "serviceName": "Civil Rights Law",
+        "timeFrame": "7 Months",
+        "year": 2023,
+        "lawyer": "Christopher Brooks",
+        "title": "Insurance Fraud",
+        "image": "https://t3.ftcdn.net/jpg/07/30/48/62/240_F_730486286_UoTOHTpHRNywOfoQ5xMPpkQyUDw5Rs9L.jpg"
+    }
+]
